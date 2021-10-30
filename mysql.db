@@ -1,0 +1,24 @@
+# Table 1 Creation
+------------------
+create table users(
+    pid int auto_increment primary key,
+    username varchar(9) not null,
+    password varchar(255) not null
+);
+
+Insertion
+---------
+INSERT INTO users (userame,password) VALUES ('test@test.com','Test@1234');
+
+
+# Table 2 Creation
+------------------
+create table urls(
+    pid int auto_increment primary key,
+    uid varchar(255) not null,
+    previousurl varchar(5000) not null,
+    orginalurl varchar(255) not null,
+    date varchar(255) not null
+);
+
+
