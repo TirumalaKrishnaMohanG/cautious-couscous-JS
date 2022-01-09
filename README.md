@@ -53,6 +53,7 @@ create table urls(
 ````
 ## After DB Setup, Run the program
 After successfully setting up the base package and DB setup, Use the following command to run the program.
+### Linux Env
 [1]. Export the flask env in debug mode to check the backend operations
 
 ````
@@ -65,6 +66,17 @@ After successfully exporting the flask, Then run with following command
 ````
 flask run
 ````
+### Windows Env
+Running the flask along with exporting the file
+````
+Command 1:
+setx FLASK_APP "app.py"
+````
+After successfully exporting the flask, Then run with following command
+````
+flask run
+````
+
 ## Outputs
 [1]. Login Page
 ![Login](https://user-images.githubusercontent.com/86065440/148672248-eca7b788-65e4-4e6b-a77c-a760660d37e7.png)
