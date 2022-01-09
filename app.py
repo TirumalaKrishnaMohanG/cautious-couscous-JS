@@ -28,8 +28,8 @@ from flask_shorturl import ShortUrl
 app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = '1226'
-app.config['MYSQL_DB'] = 'karthik_assignment'
+app.config['MYSQL_PASSWORD'] = '121212' # Enter your DB passcode here
+app.config['MYSQL_DB'] = 'urlshortner'
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 app.config['SECRET_KEY'] = 'this should be a secret random string'
